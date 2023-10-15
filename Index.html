@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="folder1.css/news1.css" />
+
+    <title>Headlines</title>
+  </head>
+  <body>
+    <header class="header-container">
+      <div class="header-wrapper">
+        <h2 class="header-text" ><img
+            src="https://guardian.ng/wp-content/themes/guardian2016/img/guardian_logo.png"
+            srcset="
+              https://guardian.ng/wp-content/themes/guardian2016/img/guardian_logo.png    1x,
+              https://guardian.ng/wp-content/themes/guardian2016/img/guardian_logo@2x.png 2x
+            "
+            alt="The Guardian"
+            data-orig-width="399"
+            data-orig-height="51"
+            style="height: 51px; width: 399px"
+            width="392"
+            height="51"
+        /></h2>
+
+        <div class="header-menu">
+          <nav class="nav-nav" style="flex: auto">
+            <ul class="nav">
+              <li class="nav-item">
+                <a class="active" href="#" target="_blank">Headlines</a>
+              </li>
+              <li class="nav-item">
+                <a href="#">World</a>
+              </li>
+              <li class="nav-item">
+                <a href="#">Sports</a>
+              </li>
+              <li class="nav-item">
+                <a href="entertainment.html">Entertainment</a>
+              </li>
+              <li class="nav-item">
+                <a href="business.html">Business</a>
+              </li>
+              <li class="nav-item">
+                <a href="#">Technology</a>
+              </li>
+            </ul>
+
+            <!-- <div class="nav-icon">
+              <i class="fa fa-bars"></i>
+            </div> -->
+          </nav>
+          <div class="nav-search">
+            <div class="search-btn">
+              <img
+                src="https://guardian.ng/wp-content/themes/guardian2016/img/search_icon.png"
+                srcset="
+                  https://guardian.ng/wp-content/themes/guardian2016/img/search_icon.png    1x,
+                  https://guardian.ng/wp-content/themes/guardian2016/img/search_icon@2x.png 2x
+                "
+                class="search-click"
+                alt="Search"
+                width="30"
+                height="30"
+              />
+
+              <img
+                src="https://guardian.ng/wp-content/themes/guardian2016/img/menu_close_icon.png"
+                srcset="
+                  https://guardian.ng/wp-content/themes/guardian2016/img/menu_close_icon.png    1x,
+                  https://guardian.ng/wp-content/themes/guardian2016/img/menu_close_icon@2x.png 2x
+                "
+                class="close-button"
+                alt="Search Close"
+                width="30"
+                height="30"
+              />
+            </div>
+            <div class="search-section">
+              <form
+                role="search"
+                method="GET"
+                id="searchform"
+                class="searchform"
+                action="/"
+              >
+                <input
+                  type="text"
+                  name="s"
+                  class="search"
+                  placeholder="Search Guardian Newspaper"
+                />
+                <button type="submit" class="search-submit">Go</button>
+              </form>
+              <div class="quick-tags"> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div id="loader"></div>
+
+    <div class="text-contentList" style="display: flex; flex-wrap: wrap"> </div>
+    <footer class="footer-container">
+      <p class="footer__text">
+        copyright &copy; NewsPaper by Valentine &amp; Friends
+      </p>
+    </footer>
+
+    <script src="news.js"></script>
+  </body>
+</html>
